@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: red;
+            color: white;
+        }
+
+        div:hover {
+            color: red
+        }
+        div > p {
+            display: none;
+        }
+        .botao {
+            margin: auto;
+            width: 250px;
+            height:25px;
+            color: black;
+            background-color: lightgrey;
+            border: 1px solid black;
+            text-align: center;
+        }
+        div {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui!
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <P>Fim do exemplo</P>
+    <a href="pseudoclasse.html" target="_self" rel="prev">
+        <div class="botao">
+            Voltar para página incial
+        </div>
+    </a>
+</body>
+</html>

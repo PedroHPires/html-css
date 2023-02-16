@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Aumente e diminua o seu navegador e veja a magica acontecer</p>
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/imagem-elefante-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1025px)" srcset="imagens/imagem-elefante-m.jpg" type="image/jpeg">
+        <img src="imagens/imagem-elefante-g.jpg" alt="elefante">
+    </picture>
+</body>
+</html>
